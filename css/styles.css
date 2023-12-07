@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {scroll-behavior: smooth;}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.body-text, body {
+  font-size: 1.2em;   
+    line-height: 1.6em;
+}
+.green, .nav-link {color: #006e37;}
+a {color:#006e37;}
+a:hover {color:#014422;}
+section {
+    padding: 20px 0 40px 0;
+}
+h1 {
+    font-size: 2.7em;
+    font-weight: 700;
+    color: #006e37;
+}
+h2, h3 {
+
+    padding: 20px 0 0 0;
+    font-weight: 700;
+}
+
+
+.breadcrumbs {font-size: 0.7em;}
+.breadcrumbs a {
+    text-decoration: none;
+}
+@media (max-width: 600px) {
+    h2 {
+    font-size: 2.2em;
+    }
+}
+.lead {font-size: 1.3em; line-height: 1.1em;}
+.full-pad {padding: 100px 0 40px 0;}
+/* Overwrite bootstrap default */
+.navbar {background: rgba(255,255,255,0.8)}
+.accordion-button:not(.collapsed) {
+    color: #014422;
+    background-color: #daede3;
+}
+
+.btn-wcc {
+    color: #fff;
+    background-color: #006e37;
+}
+
+.btn-wcc:hover {
+    background-color: #014422;
+    color: #ffffff;
+}
+
+#banner {
+    background: url(../images/wcc-fall-2023.jpg) no-repeat center center;
+    /* background-color: #006e37; */
+    background-size: cover;
+}
+
+#search {
+    background-color: #e6e6e6;
+}
+
+#yellow-stripe {
+    padding: 10px 0 10px 0;
+    background-color: #f2be19;
+}
+
+#programs-a-z li, #courses-a-z li{
+    list-style: none;
+}
+#programs-a-z li a, #courses-a-z li a{
+    text-decoration: none;
+}
+footer {
+    padding: 30px;
+    margin: 0;
+    background: #006e37;
+    color: white;
+}
